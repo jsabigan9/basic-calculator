@@ -15,7 +15,7 @@ namespace basic_calculator
 
         private void BtnNumberClick(object sender, EventArgs e)
         {
-
+            // This prevents errors if clicked on empty space on form designer
             if (sender is Button btn)
             {
                 if (txtNumber.Text == "0")
